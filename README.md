@@ -34,10 +34,27 @@ The system aims to reduce the burden on healthcare professionals by automating t
 - **Accelerate**: To optimize model training on Apple Silicon.
 
 
-### 6. **Use Cases**
-- Upload a medical image (e.g., chest X-ray).
-- Add relevant clinical notes or patient history.
-- Receive a diagnosis with visual highlights on the medical image and a text-based summary.
+## **Use Cases**
+Here’s a more balanced version of the **Use Cases** section for your project:
+
+---
+
+## **Use Cases**
+
+### 1. **Upload a Medical Image (e.g., Chest X-ray)**
+   - **Scenario**: A healthcare provider uploads a medical image, such as a chest X-ray, for diagnostic analysis. This could be a case where a patient is showing signs of a respiratory condition, and the doctor needs quick insights into potential issues like pneumonia or lung cancer.
+   - **System Action**: The system’s image model processes the uploaded image, scanning for abnormalities. It highlights suspicious areas, such as lung nodules or inflammation, which might require further investigation.
+   - **Outcome**: The doctor receives a highlighted image with key areas of interest, helping to prioritize the next steps in diagnosis or treatment.
+
+### 2. **Add Relevant Clinical Notes or Patient History**
+   - **Scenario**: Along with the medical image, the healthcare provider inputs clinical notes or patient history (e.g., smoking habits, past diagnoses). These details provide more context to the image analysis.
+   - **System Action**: The system processes the text using a specialized medical language model, extracting important medical terms and cross-referencing them with the abnormalities detected in the image.
+   - **Outcome**: The AI system refines its diagnostic output based on the combined insights from the image and patient history, potentially adjusting its recommendations or flagging conditions relevant to the patient's history.
+
+### 3. **Receive a Diagnosis with Visual Highlights on the Medical Image and a Text-Based Summary**
+   - **Scenario**: After analyzing both the medical image and the clinical notes, the system generates a visual diagnosis report. This includes marked areas on the image where issues were detected and a written summary explaining the findings.
+   - **System Action**: The diagnosis report provides both visual highlights (e.g., areas of the lung affected by a potential condition) and a text-based summary with recommendations for follow-up steps, such as further tests or treatment options.
+   - **Outcome**: The healthcare provider receives an actionable report that can be used to make informed decisions about patient care, helping reduce diagnostic time and improve accuracy.
 
 
 ## Future Enhancements
