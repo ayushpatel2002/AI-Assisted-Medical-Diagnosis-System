@@ -13,6 +13,25 @@ The system aims to reduce the burden on healthcare professionals by automating t
 - **Real-time Inference**: Provides immediate feedback, assisting doctors in diagnosing conditions based on medical data.
 - **Web-Based Interface**: Simple front-end interface allowing healthcare professionals to upload images and patient notes.
 
+Not yet. Let’s clearly define the **project goals** now so we have a solid foundation.
+
+### **Project Goals for the AI-Assisted Medical Diagnosis System**
+
+1. **Automate Initial Diagnostic Analysis**:
+   - Build an AI system that can analyze medical images (like X-rays) and clinical text data to assist healthcare providers by identifying potential issues. The system should be able to highlight areas of concern in images, flagging abnormalities that may need closer examination.
+
+2. **Multimodal Data Processing**:
+   - Combine insights from medical images and text (such as patient history or symptoms) for a holistic view. This approach will allow for better diagnosis by cross-referencing visual findings with textual information.
+
+3. **Generate Actionable Diagnostic Reports**:
+   - Produce a report that includes visual highlights on images and a text summary of the findings. The report should provide diagnostic insights and suggestions for further action, making it easier for healthcare providers to make informed decisions.
+
+4. **Real-Time and User-Friendly Interface**:
+   - Create an accessible web-based interface where healthcare professionals can upload images and text, view the analysis, and receive diagnostic outputs in real time.
+
+5. **Ensure Accuracy and Reliability**:
+   - Validate and test the models to ensure high accuracy and reliability, focusing on minimizing false positives and negatives. This will help ensure the system is genuinely useful in a clinical setting.
+
 ## Tech Stack
 
 ### **Core Technologies**
